@@ -20,7 +20,7 @@
     @apply bg-almost-white font-general-sans font-normal leading text-gray-2;
   }
 
-  main section:not(#section-hero) {
+  main section:not(#section-hero):not(#section-call-to-action) {
     @apply mx-auto max-w-[140rem] px-32;
   }
 }

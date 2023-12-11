@@ -1,6 +1,8 @@
 import { Hero } from './components/home/Hero'
 import { WhoWeAre } from './components/home/WhoWeAre'
 import { ProductsAndServices } from './components/home/ProductsAndServices'
+import { CallToAction } from './components/home/CallToAction'
+import { Testimonials } from './components/home/Testimonials'
 
 export default function Home() {
   return (
@@ -8,6 +10,8 @@ export default function Home() {
       <Hero />
       <WhoWeAre />
       <ProductsAndServices />
+      <CallToAction />
+      <Testimonials />
     </>
   )
 }
