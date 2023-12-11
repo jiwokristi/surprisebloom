@@ -1,8 +1,8 @@
 export const Hero = () => {
   return (
-    <section id="section-hero" className="h-screen bg-gray-1 py-48">
-      <div className="mx-auto flex h-full flex-col justify-between px-32 text-almost-white">
-        <header className="mt-24">
+    <section id="section-hero" className="h-screen bg-gray-1 px-32 py-48">
+      <div className="mx-auto flex h-full max-w-[140rem] flex-col justify-between text-almost-white">
+        <header className="mt-12">
           <h1 id="logo-image" className="text-center font-zodiak text-98">
             SURPRISE BLOOM
           </h1>

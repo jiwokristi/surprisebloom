@@ -4,7 +4,7 @@ export const WhoWeAre = () => {
       <div className="mx-auto w-1/2 text-center">
         <header className="mb-48">
           <span className="mb-48 inline-block text-16">WHO WE ARE</span>
-          <h2 className="leading-medium text-36">
+          <h2 className="text-36 leading-medium">
             A CREATIVE OASIS THAT NURTURES
             <br />
             <span className="font-zodiak-light">CHERISHED CONNECTIONS</span>

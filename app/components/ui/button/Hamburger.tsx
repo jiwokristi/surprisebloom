@@ -4,7 +4,7 @@ import clsx from 'clsx'
 
 import { useIntersectionObserver } from '@/app/lib/hooks/useIntersectionObserver'
 
-interface HamburgerProps extends React.ComponentProps<'button'> {
+interface HamburgerProps extends React.ComponentProps<'div'> {
   open: boolean
 }
 
@@ -15,8 +15,8 @@ export const Hamburger = ({ open, ...props }: HamburgerProps) => {
   })
 
   return (
-    <button
-      type="button"
+    <div
+      role="button"
       className={clsx(
         'relative z-50 h-24 w-24 cursor-pointer transition-all duration-200 ease-in',
         {
@@ -62,6 +62,6 @@ export const Hamburger = ({ open, ...props }: HamburgerProps) => {
       >
         &nbsp;
       </span>
-    </button>
+    </div>
   )
 }
