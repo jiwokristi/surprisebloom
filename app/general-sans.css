@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'GeneralSans-Extralight';
+  src: url('./lib/fonts/general-sans/GeneralSans-Extralight.woff2')
+    format('woff2');
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'GeneralSans-Light';
+  src: url('./lib/fonts/general-sans/GeneralSans-Light.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'GeneralSans-Regular';
+  src: url('./lib/fonts/general-sans/GeneralSans-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'GeneralSans-Medium';
+  src: url('./lib/fonts/general-sans/GeneralSans-Medium.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'GeneralSans-Semibold';
+  src: url('./lib/fonts/general-sans/GeneralSans-Semibold.woff2')
+    format('woff2');
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'GeneralSans-Bold';
+  src: url('./lib/fonts/general-sans/GeneralSans-Bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+}

@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Zodiak-Light';
+  src: url('./lib/fonts/zodiak/Zodiak-Light.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Zodiak-Regular';
+  src: url('./lib/fonts/zodiak/Zodiak-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Zodiak-Bold';
+  src: url('./lib/fonts/zodiak/Zodiak-Bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+}
