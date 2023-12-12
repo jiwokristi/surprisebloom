@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 
-import { RootNav } from './components/navigation/RootNav'
-import { Footer } from './components/Footer'
+import { RootNav } from '@/app/components/navigation/RootNav'
+import { Footer } from '@/app/components/Footer'
 
 import './general-sans.css'
 import './zodiak.css'
