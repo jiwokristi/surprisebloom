@@ -1,9 +1,11 @@
-import { Hero } from './components/home/Hero'
-import { WhoWeAre } from './components/home/WhoWeAre'
-import { ProductsAndServices } from './components/home/ProductsAndServices'
-import { CallToAction } from './components/home/CallToAction'
-import { Testimonials } from './components/home/Testimonials'
-import { AsFeaturedIn } from './components/home/AsFeaturedIn'
+import {
+  AsFeaturedIn,
+  CallToAction,
+  Hero,
+  ProductsAndServices,
+  Testimonials,
+  WhoWeAre,
+} from '@/app/components/home'
 
 export default function Home() {
   return (

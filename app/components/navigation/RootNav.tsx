@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { useState } from 'react'
 import clsx from 'clsx'
 
-import { Hamburger } from '../ui/icon/Hamburger'
+import { Hamburger } from '@/app/components/ui/icon/Hamburger'
 
 import { useIntersectionObserver } from '@/app/lib/hooks/useIntersectionObserver'
 
