@@ -79,6 +79,9 @@ const config: Config = {
           2: '#A9A08A',
           3: '#BFBBA5',
         },
+        green: {
+          1: '#E3E5D8',
+        },
       },
     },
   },

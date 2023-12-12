@@ -23,7 +23,7 @@ export const RootNav = () => {
   return (
     <nav
       className={clsx(
-        'fixed left-0 right-0 top-0 flex items-center justify-between gap-32 px-64 py-16',
+        'fixed left-0 right-0 top-0 z-50 flex items-center justify-between gap-32 px-64 py-16',
         {
           'text-almost-white': isIntersecting,
           'text-gray-2': !isIntersecting,
