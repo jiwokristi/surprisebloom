@@ -10,7 +10,7 @@ export const useIntersectionObserver = ({
   elementId?: string
 }) => {
   const elementRef = useRef(null)
-  const [isIntersecting, setIsIntersecting] = useState(false)
+  const [isIntersecting, setIsIntersecting] = useState<boolean | null>(null)
 
   const intersectionHandler: IntersectionObserverCallback = (entries) => {
     entries.forEach((entry) => {
