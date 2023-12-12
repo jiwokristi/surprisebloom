@@ -4,12 +4,12 @@ import Link from 'next/link'
 import { useState } from 'react'
 import clsx from 'clsx'
 
-import { Hamburger } from '../ui/button/Hamburger'
+import { Hamburger } from '../ui/icon/Hamburger'
 
 import { useIntersectionObserver } from '@/app/lib/hooks/useIntersectionObserver'
 
 export const RootNav = () => {
-  const { isIntersecting } = useIntersectionObserver({
+  const { isIntersecting: isHeroIntersecting } = useIntersectionObserver({
     threshold: 0,
     elementId: 'section-hero',
   })
@@ -25,11 +25,14 @@ export const RootNav = () => {
       className={clsx(
         'fixed left-0 right-0 top-0 z-50 flex items-center justify-between gap-32 px-64 py-16',
         {
-          'text-almost-white': isIntersecting,
-          'text-gray-2': !isIntersecting,
+          'bg-gray-1/90 text-almost-white': isHeroIntersecting,
+          'bg-almost-white/90 text-gray-2': !isHeroIntersecting,
+          'opacity-0': isHeroIntersecting === null,
+          'opacity-100': isHeroIntersecting !== null,
         },
       )}
     >
+      {/* ----- Hamburger Button ----- */}
       <button
         className="flex items-center gap-16"
         onClick={() => setOpen((prev) => !prev)}
@@ -39,13 +42,15 @@ export const RootNav = () => {
           MENU
         </span>
       </button>
+
+      {/* ----- Greetings/Small Logo Link ----- */}
       <Link
         href="#"
         className={clsx(
           'absolute left-1/2 top-[2.2rem] -translate-x-1/2 font-zodiak text-24 transition-all duration-300 ease-in',
           {
-            'opacity-0': isLogoIntersecting,
-            'opacity-100': !isLogoIntersecting,
+            'opacity-0': isLogoIntersecting || isHeroIntersecting === null,
+            'opacity-100': !isLogoIntersecting && isHeroIntersecting !== null,
           },
         )}
       >
@@ -62,16 +67,17 @@ export const RootNav = () => {
       >
         HELLO THERE! WE ARE
       </p>
+
+      {/* ----- Actions ----- */}
       <div className="flex items-center gap-16">
         <span className="text-12 transition-all duration-300 ease-in">EN</span>
         <Link
-          id="login-link"
           href="#"
           className={clsx(
             'px-24 py-12 text-12 ring-1 ring-inset transition-all duration-300 ease-in',
             {
-              'ring-almost-white': isIntersecting,
-              'ring-gray-2': !isIntersecting,
+              'ring-almost-white': isHeroIntersecting,
+              'ring-gray-2': !isHeroIntersecting,
             },
           )}
         >

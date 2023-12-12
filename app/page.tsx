@@ -10,10 +10,10 @@ export default function Home() {
     <>
       <Hero />
       <WhoWeAre />
+      <AsFeaturedIn />
       <ProductsAndServices />
       <CallToAction />
       <Testimonials />
-      <AsFeaturedIn />
     </>
   )
 }

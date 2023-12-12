@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 
 import { RootNav } from './components/navigation/RootNav'
+import { Footer } from './components/Footer'
 
 import './general-sans.css'
 import './zodiak.css'
@@ -23,6 +24,7 @@ export default function RootLayout({
         <div id="portal"></div>
         <RootNav />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   )
