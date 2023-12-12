@@ -18,7 +18,7 @@ export const Hamburger = ({ open, ...props }: HamburgerProps) => {
     <div
       role="button"
       className={clsx(
-        'relative z-50 h-24 w-24 cursor-pointer transition-all duration-200 ease-in',
+        'relative h-24 w-24 cursor-pointer transition-all duration-200 ease-in',
         {
           'rotate-0': !open,
           'rotate-90': open,
