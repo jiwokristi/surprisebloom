@@ -1,0 +1,6 @@
+export * from './AsFeaturedIn'
+export * from './CallToAction'
+export * from './Hero'
+export * from './ProductsAndServices'
+export * from './Testimonials'
+export * from './WhoWeAre'
