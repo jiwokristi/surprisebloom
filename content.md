@@ -16,13 +16,13 @@
 
 2. Who we are
 
-3. Parallax products/services
+3. As featured in
 
-4. Call to action
+4. Parallax products/services
 
-5. Parallax testimonials
+5. Call to action
 
-6. As featured in
+6. Parallax testimonials
 
 7. Footer
 
@@ -46,6 +46,12 @@ Discover joy in every moment with SurpriseBloom. From unique plant bouquets to p
 A creative oasis, nurturing cherished connections.
 
 We believe in the power of meaningful connections and the joy that comes from thoughtful gestures. We value the art of surprise and the emotions that a carefully curated gift can evoke. Our mission is to enhance the bonds between people by providing a service that goes beyond ordinary presents, creating moments of delight and celebration in the lives of our customers and their loved ones.
+
+<br>
+
+### As featured in
+
+As featured in.
 
 <br>
 
@@ -97,6 +103,12 @@ Let's create lasting memories together.
 
 ## Todo
 
-1. Make the subscription plans
-2. Make the FAQ content
-3. Make the contact us content
+1. Make the language tabs
+2. Make the hamburger menu navigation modal
+3. Make the subscription plans for the All Service page
+4. Make the FAQ content for the FAQ page
+5. Make the Contact Us page content
+6. Make the Shop page layout
+7. Make the All Service page layout
+8. Make the FAQ page layout
+9. Make the Contact Us page layout
